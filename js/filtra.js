@@ -19,6 +19,10 @@ campoFiltro.addEventListener("input", function(){
             var paciente = pacientes[i];
             paciente.classList.remove("invisivel");
         }
+        // outra forma
+        // pacientes.forEach(function(paciente){
+        //     paciente.classList.remove("invisivel");
+        // })
     }
 })
 //outra forma
